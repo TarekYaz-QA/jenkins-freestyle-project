@@ -13,7 +13,7 @@ pipeline{
         }
         stage('run run.sh'){
             steps{
-                sh "./run.sh"
+                sh "sudo ./run.sh"
             }
         }
     }
