@@ -11,5 +11,10 @@ pipeline{
                 sh "touch ~/jenkins-tutorial-test/file1"
             }
         }
+        stage('run run.sh'){
+            steps{
+                sh "run.sh"
+            }
+        }
     }
 }
