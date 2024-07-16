@@ -1,1 +1,1 @@
-echo 'PIPELINE DEMO'
+echo '--PIPELINE DEMO--'
